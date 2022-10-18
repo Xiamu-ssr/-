@@ -1,0 +1,107 @@
+12 [140530774787968] INFO perfrun.launcher <> - Launcher main begin
+13 [140530774787968] INFO perfrun.launcher <> - MessageCatalogInit finished
+13 [140530774787968] INFO perfrun.launcher <> - Launcher instance created
+13 [140530774787968] INFO perfrun.launcher <> - argc = 7; cmdline = /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/bin64/amplxe-runss --ui-output-format xml --ui-output-fd 5 --option-file /home/mumu/Git/ParallelComputing/exper1/r000hs/config/runss.options 
+80 [140530774787968] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+81 [140530774787968] INFO perfrun.launcher <> - create file finder object
+81 [140530774787968] INFO perfrun.launcher <> - create a result directory: pattern = /home/mumu/Git/ParallelComputing/exper1/r000hs pid = 4294967295
+82 [140530774787968] INFO perfrun.sdk <> - checked that the directory /home/mumu/Git/ParallelComputing/exper1/r000hs is a local directory
+82 [140530774787968] INFO perfrun.sdk <> - the directory /home/mumu/Git/ParallelComputing/exper1/r000hs is a local directory with FS type ID 61267
+83 [140530774787968] INFO perfrun.launcher <> - create data directory = /home/mumu/Git/ParallelComputing/exper1/r000hs/data.0
+83 [140530774787968] INFO perfrun.launcher <> - Creating the master collection flag
+94 [140530774787968] INFO perfrun.launcher <> - Done creating the master collection flag
+96 [140530623178304] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+97 [140530623178304] INFO perfrun.sdk <> - Allocating TMU :/home/mumu/Git/ParallelComputing/exper1/r000hs/data.0/systemcollector-6348-Xiamu-ssr.sc
+97 [140530623178304] INFO perfrun.system <> - Tpss based collection
+97 [140530623178304] INFO perfrun.launcher <> - plugin [ptracecollector] was disabled because it doesn't support the given collection type.
+97 [140530623178304] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+97 [140530623178304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+97 [140530623178304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+97 [140530623178304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+97 [140530623178304] INFO perfrun.mrte <> - system-wide mode is 0
+98 [140530623178304] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+126 [140530623178304] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/home/mumu/Git/ParallelComputing/exper1/r000hs/data.0
+126 [140530623178304] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=Xiamu-ssr
+126 [140530623178304] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib32/runtime:/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/runtime
+126 [140530623178304] INFO perfrun.mrte <> - LD_LIBRARY_PATH=/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib32/runtime:/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/runtime:/home/mumu/SomeSoft/intel/oneapi/vpl/2022.1.0/lib:/home/mumu/SomeSoft/intel/oneapi/tbb/2021.6.0/env/../lib/intel64/gcc4.8:/home/mumu/SomeSoft/intel/oneapi/mpi/2021.6.0//libfabric/lib:/home/mumu/SomeSoft/intel/oneapi/mpi/2021.6.0//lib/release:/home/mumu/SomeSoft/intel/oneapi/mpi/2021.6.0//lib:/home/mumu/SomeSoft/intel/oneapi/mkl/2022.1.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/itac/2021.6.0/slib:/home/mumu/SomeSoft/intel/oneapi/ipp/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/ippcp/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/ipp/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/lib:/home/mumu/SomeSoft/intel/oneapi/debugger/2021.6.0/gdb/intel64/lib:/home/mumu/SomeSoft/intel/oneapi/debugger/2021.6.0/libipt/intel64/lib:/home/mumu/SomeSoft/intel/oneapi/debugger/2021.6.0/dep/lib:/home/mumu/SomeSoft/intel/oneapi/dal/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/lib:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/lib/x64:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/lib/oclfpga/host/linux64/lib:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin:/home/mumu/SomeSoft/intel/oneapi/ccl/2021.6.0/lib/cpu_gpu_dpcpp:/home/mumu/SomeSoft/intel/oneapi/intelpython/latest/lib/libfabric::/usr/local/cuda/lib64
+126 [140530623178304] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+126 [140530623178304] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+126 [140530623178304] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+126 [140530623178304] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+126 [140530623178304] INFO perfrun.mrte <> - Data directory: /home/mumu/Git/ParallelComputing/exper1/r000hs/data.0
+126 [140530623178304] INFO perfrun.mrte <> - Mrte plugin is initialized
+126 [140530623178304] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+126 [140530623178304] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+126 [140530623178304] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+126 [140530623178304] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+126 [140530623178304] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.tpss <> - initialize tpss controller
+127 [140530623178304] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+127 [140530623178304] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+127 [140530623178304] INFO perfrun.tpss <> - default obj-size-min=1024
+127 [140530623178304] INFO perfrun.tpss <> - default hash-table-size=0
+127 [140530623178304] INFO perfrun.launcher <> - plugin [media] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.launcher <> - plugin [parallelfs] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+127 [140530623178304] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+128 [140530774787968] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib32/runtime:/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/runtime:/home/mumu/SomeSoft/intel/oneapi/vpl/2022.1.0/lib:/home/mumu/SomeSoft/intel/oneapi/tbb/2021.6.0/env/../lib/intel64/gcc4.8:/home/mumu/SomeSoft/intel/oneapi/mpi/2021.6.0//libfabric/lib:/home/mumu/SomeSoft/intel/oneapi/mpi/2021.6.0//lib/release:/home/mumu/SomeSoft/intel/oneapi/mpi/2021.6.0//lib:/home/mumu/SomeSoft/intel/oneapi/mkl/2022.1.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/itac/2021.6.0/slib:/home/mumu/SomeSoft/intel/oneapi/ipp/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/ippcp/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/ipp/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/lib:/home/mumu/SomeSoft/intel/oneapi/debugger/2021.6.0/gdb/intel64/lib:/home/mumu/SomeSoft/intel/oneapi/debugger/2021.6.0/libipt/intel64/lib:/home/mumu/SomeSoft/intel/oneapi/debugger/2021.6.0/dep/lib:/home/mumu/SomeSoft/intel/oneapi/dal/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/lib:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/lib/x64:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/lib/oclfpga/host/linux64/lib:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin:/home/mumu/SomeSoft/intel/oneapi/ccl/2021.6.0/lib/cpu_gpu_dpcpp:/home/mumu/SomeSoft/intel/oneapi/intelpython/latest/lib/libfabric::/usr/local/cuda/lib64
+128 [140530774787968] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib32/runtime/libittnotify_collector.so
+128 [140530774787968] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/runtime/libittnotify_collector.so
+128 [140530774787968] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+129 [140530774787968] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib32/runtime/libittnotify_collector.so
+129 [140530774787968] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/runtime/libittnotify_collector.so
+129 [140530774787968] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = libittnotify_collector.so
+129 [140530774787968] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib32/runtime/libittnotify_collector.so:/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/runtime/libittnotify_collector.so
+129 [140530774787968] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+130 [140530774787968] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+130 [140530774787968] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+130 [140530774787968] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+130 [140530774787968] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+131 [140530774787968] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /home/mumu/Git/ParallelComputing/exper1/r000hs/data.0
+131 [140530774787968] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = Xiamu-ssr
+131 [140530774787968] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib32/runtime:/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/runtime
+131 [140530774787968] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib32/runtime:/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/runtime:/home/mumu/SomeSoft/intel/oneapi/vpl/2022.1.0/lib:/home/mumu/SomeSoft/intel/oneapi/tbb/2021.6.0/env/../lib/intel64/gcc4.8:/home/mumu/SomeSoft/intel/oneapi/mpi/2021.6.0//libfabric/lib:/home/mumu/SomeSoft/intel/oneapi/mpi/2021.6.0//lib/release:/home/mumu/SomeSoft/intel/oneapi/mpi/2021.6.0//lib:/home/mumu/SomeSoft/intel/oneapi/mkl/2022.1.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/itac/2021.6.0/slib:/home/mumu/SomeSoft/intel/oneapi/ipp/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/ippcp/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/ipp/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/lib:/home/mumu/SomeSoft/intel/oneapi/debugger/2021.6.0/gdb/intel64/lib:/home/mumu/SomeSoft/intel/oneapi/debugger/2021.6.0/libipt/intel64/lib:/home/mumu/SomeSoft/intel/oneapi/debugger/2021.6.0/dep/lib:/home/mumu/SomeSoft/intel/oneapi/dal/2021.6.0/lib/intel64:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/lib:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/lib/x64:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/lib/oclfpga/host/linux64/lib:/home/mumu/SomeSoft/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin:/home/mumu/SomeSoft/intel/oneapi/ccl/2021.6.0/lib/cpu_gpu_dpcpp:/home/mumu/SomeSoft/intel/oneapi/intelpython/latest/lib/libfabric::/usr/local/cuda/lib64
+131 [140530774787968] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+132 [140530774787968] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+132 [140530774787968] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+132 [140530774787968] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+132 [140530774787968] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+133 [140530774787968] INFO perfrun.launcher <> - Launcher: command line to start before modification = ./main
+134 [140530774787968] INFO perfrun.launcher <> - Launcher: command line to start after modification = /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/bin64/pin -error_file /home/mumu/Git/ParallelComputing/exper1/r000hs/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib64/libtpsstool.so -t /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/lib32/libtpsstool.so -server_name tpss_ipc.6348 -prd_dir /home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0 -- ./main
+134 [140530774787968] INFO perfrun.launcher <> - ProcessCreator object was created
+135 [140530774787968] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+138 [140530623178304] WARN perfrun.system <> - Folder "/sys/kernel/debug/kvm"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:720
+138 [140530623178304] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:800
+140 [140530623178304] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:204
+141 [140530623178304] WARN perfrun.system <> - Could not start ContainerMapping collector, at file: vcs/perfrun1/plugins/system/src/controller.cpp:448
+165 [140530623178304] INFO perfrun.vdso <> - Helper runtool '/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/bin32/amplxe-runss -dump-vdso -r /home/mumu/Git/ParallelComputing/exper1/r000hs --tmp-dir /tmp/amplxe-tmp-mumu' returned 1
+291 [140530623178304] INFO perfrun.vdso <> - Helper runtool '/home/mumu/SomeSoft/intel/oneapi/vtune/2022.2.0/bin64/amplxe-runss -dump-vdso -r /home/mumu/Git/ParallelComputing/exper1/r000hs --tmp-dir /tmp/amplxe-tmp-mumu' returned 0
+291 [140530623178304] INFO perfrun.itt <> - start itt controller for pid #6353
+291 [140530623178304] INFO perfrun.tpss <> - start tpss controller for pid #6353
+343 [140530774787968] INFO perfrun.launcher <> - Launcher: all plugins were started
+343 [140530774787968] INFO perfrun.launcher <> - DirectoryMonitor object was created
+343 [140530774787968] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+343 [140530774787968] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+343 [140530774787968] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+343 [140530774787968] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+355 [140530774787968] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+107320 [140530774787968] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+107325 [140530623178304] INFO perfrun.itt <> - detach itt controller
+107325 [140530623178304] INFO perfrun.itt <> - detach itt controller done
+107325 [140530623178304] INFO perfrun.tpss <> - stop tpss controller
+107328 [140530623178304] INFO perfrun.sdk <> - De-allocating TMU: /home/mumu/Git/ParallelComputing/exper1/r000hs/data.0/systemcollector-6348-Xiamu-ssr.sc
+107328 [140530623178304] INFO perfrun.system <> - closed the system trace file: /home/mumu/Git/ParallelComputing/exper1/r000hs/data.0/systemcollector-6348-Xiamu-ssr.sc
+107328 [140530774787968] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+107329 [140530774787968] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+107329 [140530774787968] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+107329 [140530774787968] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+107329 [140530774787968] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:226
+107330 [140530774787968] INFO perfrun.launcher <> - Application exit code: 0
+107330 [140530774787968] INFO perfrun.launcher <> - Exit code: 0
