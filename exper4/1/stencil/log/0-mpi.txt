@@ -1,0 +1,44 @@
+MPI id:0 of size:4
+MPI id:3 of size:4
+MPI id:1 of size:4
+MPI id:2 of size:4
+cut : 1 64 128 192 257 
+MPI - 0 : [1, 64)
+MPI - 1 : [64, 128)
+MPI - 3 : [192, 257)
+MPI - 2 : [128, 192)
+MPI - 3 : OVER
+MPI - 2 : OVER
+MPI - 0 : OVER
+MPI - 1 : OVER
+MPI - 0 : ALLOVER
+MPI - 0 0: checking
+errors:
+    1-norm = 0.0000000054475285
+    2-norm = 0.0000066829895576
+ 7-point stencil - A naive base-line:
+Size (256 x 256 x 256), Timestep 16
+Preprocessing time 0.000015s
+Computation time 0.203243s, Performance 67.358799Gflop/s
+MPI id:0 of size:4
+MPI id:1 of size:4
+MPI id:3 of size:4
+MPI id:2 of size:4
+cut : 1 128 256 384 513 
+MPI - 0 : [1, 128)
+MPI - 2 : [256, 384)
+MPI - 3 : [384, 513)
+MPI - 1 : [128, 256)
+MPI - 3 : OVER
+MPI - 2 : OVER
+MPI - 0 : OVER
+MPI - 1 : OVER
+MPI - 0 : ALLOVER
+MPI - 0 0: checking
+errors:
+    1-norm = 0.0000000865054423
+    2-norm = 0.0002774738924372
+ 7-point stencil - A naive base-line:
+Size (512 x 512 x 512), Timestep 16
+Preprocessing time 0.000241s
+Computation time 1.427195s, Performance 76.739118Gflop/s

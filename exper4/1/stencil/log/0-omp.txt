@@ -1,0 +1,24 @@
+MPI id:0 of size:1
+Result unchecked.
+7-point stencil - A naive base-line:
+Size (256 x 256 x 256), Timestep 100
+Preprocessing time 0.000001s
+Computation time 2.905164s, Performance 29.452317Gflop/s
+MPI id:0 of size:1
+Result unchecked.
+7-point stencil - A naive base-line:
+Size (384 x 384 x 384), Timestep 100
+Preprocessing time 0.000001s
+Computation time 8.373280s, Performance 34.488017Gflop/s
+MPI id:0 of size:1
+Result unchecked.
+7-point stencil - A naive base-line:
+Size (512 x 512 x 512), Timestep 100
+Preprocessing time 0.000001s
+Computation time 21.301889s, Performance 32.133789Gflop/s
+MPI id:0 of size:1
+Result unchecked.
+7-point stencil - A naive base-line:
+Size (768 x 768 x 768), Timestep 100
+Preprocessing time 0.000001s
+Computation time 67.269315s, Performance 34.342890Gflop/s

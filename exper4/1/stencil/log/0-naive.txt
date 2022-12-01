@@ -1,0 +1,14 @@
+MPI id:3 of size:4
+MPI id:2 of size:4
+MPI id:0 of size:4
+MPI id:1 of size:4
+1 : MPI OVER
+3 : MPI OVER
+2 : MPI OVER
+0 : MPI OVER
+MPI ALL OVER
+Result unchecked.
+7-point stencil - A naive base-line:
+Size (384 x 384 x 384), Timestep 100
+Preprocessing time 0.076741s
+Computation time 167.085690s, Performance 1.728322Gflop/s
