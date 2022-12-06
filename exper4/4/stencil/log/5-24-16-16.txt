@@ -1,0 +1,192 @@
+MPI id:1 of size:4
+MPI id:3 of size:4
+MPI id:2 of size:4
+MPI id:0 of size:4
+	MPI - 2 : [128, 192)
+	MPI - 3 : [192, 257)
+	--INFO--
+	BX = 24
+	BY = 16
+	BZ = 16
+	BT = 5
+	nt = 100
+	x : [1 - 257)
+	y : [1 - 257)
+	z : [1 - 257)
+	cut : 1 64 128 192 257 
+	MPI - 0 : [1, 64)
+MPI - 0 : calculate T = 0
+	MPI - 1 : [64, 128)
+MPI - 0 : calculate T = 5
+MPI - 0 : calculate T = 10
+MPI - 0 : calculate T = 15
+MPI - 0 : calculate T = 20
+MPI - 0 : calculate T = 25
+MPI - 0 : calculate T = 30
+MPI - 0 : calculate T = 35
+MPI - 0 : calculate T = 40
+MPI - 0 : calculate T = 45
+MPI - 0 : calculate T = 50
+MPI - 0 : calculate T = 55
+MPI - 0 : calculate T = 60
+MPI - 0 : calculate T = 65
+MPI - 0 : calculate T = 70
+MPI - 0 : calculate T = 75
+MPI - 0 : calculate T = 80
+MPI - 0 : calculate T = 85
+MPI - 0 : calculate T = 90
+MPI - 0 : calculate T = 95
+MPI - 2 : OVER
+MPI - 3 : OVER
+MPI - 0 : OVER
+MPI - 1 : OVER
+MPI - 0 : ALLOVER
+Result unchecked.
+7-point stencil - A naive base-line:
+Size (256 x 256 x 256), Timestep 100
+Preprocessing time 0.000053s
+Computation time 0.504362s, Performance 169.647624Gflop/s
+MPI id:0 of size:4
+MPI id:1 of size:4
+MPI id:3 of size:4
+MPI id:2 of size:4
+	MPI - 2 : [192, 288)
+	--INFO--
+	BX = 24
+	BY = 16
+	BZ = 16
+	BT = 5
+	nt = 100
+	x : [1 - 385)
+	y : [1 - 385)
+	z : [1 - 385)
+	cut : 1 96 192 288 385 
+	MPI - 0 : [1, 96)
+MPI - 0 : calculate T = 0
+	MPI - 3 : [288, 385)
+	MPI - 1 : [96, 192)
+MPI - 0 : calculate T = 5
+MPI - 0 : calculate T = 10
+MPI - 0 : calculate T = 15
+MPI - 0 : calculate T = 20
+MPI - 0 : calculate T = 25
+MPI - 0 : calculate T = 30
+MPI - 0 : calculate T = 35
+MPI - 0 : calculate T = 40
+MPI - 0 : calculate T = 45
+MPI - 0 : calculate T = 50
+MPI - 0 : calculate T = 55
+MPI - 0 : calculate T = 60
+MPI - 0 : calculate T = 65
+MPI - 0 : calculate T = 70
+MPI - 0 : calculate T = 75
+MPI - 0 : calculate T = 80
+MPI - 0 : calculate T = 85
+MPI - 0 : calculate T = 90
+MPI - 0 : calculate T = 95
+MPI - 2 : OVER
+MPI - 3 : OVER
+MPI - 0 : OVER
+MPI - 1 : OVER
+MPI - 0 : ALLOVER
+Result unchecked.
+7-point stencil - A naive base-line:
+Size (384 x 384 x 384), Timestep 100
+Preprocessing time 0.000021s
+Computation time 1.562251s, Performance 184.847228Gflop/s
+MPI id:1 of size:4
+MPI id:0 of size:4
+MPI id:3 of size:4
+MPI id:2 of size:4
+	MPI - 2 : [256, 384)
+	MPI - 3 : [384, 513)
+	--INFO--
+	BX = 24
+	BY = 16
+	BZ = 16
+	BT = 5
+	nt = 100
+	x : [1 - 513)
+	y : [1 - 513)
+	z : [1 - 513)
+	cut : 1 128 256 384 513 
+	MPI - 0 : [1, 128)
+MPI - 0 : calculate T = 0
+	MPI - 1 : [128, 256)
+MPI - 0 : calculate T = 5
+MPI - 0 : calculate T = 10
+MPI - 0 : calculate T = 15
+MPI - 0 : calculate T = 20
+MPI - 0 : calculate T = 25
+MPI - 0 : calculate T = 30
+MPI - 0 : calculate T = 35
+MPI - 0 : calculate T = 40
+MPI - 0 : calculate T = 45
+MPI - 0 : calculate T = 50
+MPI - 0 : calculate T = 55
+MPI - 0 : calculate T = 60
+MPI - 0 : calculate T = 65
+MPI - 0 : calculate T = 70
+MPI - 0 : calculate T = 75
+MPI - 0 : calculate T = 80
+MPI - 0 : calculate T = 85
+MPI - 0 : calculate T = 90
+MPI - 0 : calculate T = 95
+MPI - 3 : OVER
+MPI - 2 : OVER
+MPI - 0 : OVER
+MPI - 1 : OVER
+MPI - 0 : ALLOVER
+Result unchecked.
+7-point stencil - A naive base-line:
+Size (512 x 512 x 512), Timestep 100
+Preprocessing time 0.000011s
+Computation time 3.566145s, Performance 191.946860Gflop/s
+MPI id:1 of size:4
+MPI id:0 of size:4
+MPI id:3 of size:4
+MPI id:2 of size:4
+	MPI - 3 : [576, 769)
+	MPI - 2 : [384, 576)
+	--INFO--
+	BX = 24
+	BY = 16
+	BZ = 16
+	BT = 5
+	nt = 100
+	x : [1 - 769)
+	y : [1 - 769)
+	z : [1 - 769)
+	cut : 1 192 384 576 769 
+	MPI - 0 : [1, 192)
+MPI - 0 : calculate T = 0
+	MPI - 1 : [192, 384)
+MPI - 0 : calculate T = 5
+MPI - 0 : calculate T = 10
+MPI - 0 : calculate T = 15
+MPI - 0 : calculate T = 20
+MPI - 0 : calculate T = 25
+MPI - 0 : calculate T = 30
+MPI - 0 : calculate T = 35
+MPI - 0 : calculate T = 40
+MPI - 0 : calculate T = 45
+MPI - 0 : calculate T = 50
+MPI - 0 : calculate T = 55
+MPI - 0 : calculate T = 60
+MPI - 0 : calculate T = 65
+MPI - 0 : calculate T = 70
+MPI - 0 : calculate T = 75
+MPI - 0 : calculate T = 80
+MPI - 0 : calculate T = 85
+MPI - 0 : calculate T = 90
+MPI - 0 : calculate T = 95
+MPI - 3 : OVER
+MPI - 2 : OVER
+MPI - 0 : OVER
+MPI - 1 : OVER
+MPI - 0 : ALLOVER
+Result unchecked.
+7-point stencil - A naive base-line:
+Size (768 x 768 x 768), Timestep 100
+Preprocessing time 0.000058s
+Computation time 10.734424s, Performance 215.216262Gflop/s

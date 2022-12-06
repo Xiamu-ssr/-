@@ -38,7 +38,7 @@
 #define TX 256
 #define TY 256
 
-#define min(a,b) ((a)<(b)?(a):(b))
+// #define min(a,b) ((a)<(b)?(a):(b))
 #define INDEX(xx, yy, zz, ldxx, ldyy) ((xx) + (ldxx) * ((yy) + (ldyy) * (zz)))
 
 typedef double data_t;
@@ -65,6 +65,9 @@ typedef struct {
     void *additional_info;
 } dist_grid_info_t;
 
+#ifdef __cplusplus 
+extern "C" { 
+#endif 
 /* type == 7 or type == 27 */
 void create_dist_grid(dist_grid_info_t *info, int stencil_type);
 void destroy_dist_grid(dist_grid_info_t *info);
@@ -73,5 +76,7 @@ void destroy_dist_grid(dist_grid_info_t *info);
  * the returned value should be either equal to `A0` or `A1` */
 ptr_t stencil_7(ptr_t A0, ptr_t A1,ptr_t B0, ptr_t B1,ptr_t C0, ptr_t C1, const dist_grid_info_t *info, int nt, MPI_Comm active_procs);
 // ptr_t stencil_27(ptr_t arr, ptr_t aux, const dist_grid_info_t *info, int nt);
-
+#ifdef __cplusplus 
+} 
+#endif 
 #endif

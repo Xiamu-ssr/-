@@ -29,12 +29,14 @@ check_result_t check_answer(cptr_t ans0, cptr_t ans1, const dist_grid_info_t *in
 #endif
             for(int x = x_start; x < x_end; ++x) {
                 double err = fabs(ans0[INDEX(x, y, z, ldx, ldy)] - ans1[INDEX(x, y, z, ldx, ldy)]);
+                // printf("0=%lf 1=%lf\n",ans0[INDEX(x, y, z, ldx, ldy)], ans1[INDEX(x, y, z, ldx, ldy)]);
                 norm_1_tmp_y += err;
                 norm_2_tmp_y += err * err;
                 if(norm_inf_tmp_y < err) {
                     norm_inf_tmp_y = err;
                 }
             }
+            // exit(0);
             norm_1_tmp_z += norm_1_tmp_y;
             norm_2_tmp_z += norm_2_tmp_y;
             if(norm_inf_tmp_z < norm_inf_tmp_y) {
@@ -50,6 +52,7 @@ check_result_t check_answer(cptr_t ans0, cptr_t ans1, const dist_grid_info_t *in
     MPI_Reduce(&norm_1_tmp_local, &norm_1, 1, MPI_DOUBLE, MPI_SUM, 0, active);
     MPI_Reduce(&norm_2_tmp_local, &norm_2, 1, MPI_DOUBLE, MPI_SUM, 0, active);
     MPI_Reduce(&norm_inf_tmp_local, &norm_inf, 1, MPI_DOUBLE, MPI_MAX, 0, active);
+    // printf("1=%lf 2=%lf\n",norm_1, norm_2);
     result.norm_1 = norm_1 / (info->global_size_x * info->global_size_y * info->global_size_z);
     result.norm_2 = sqrt(norm_2 / (info->global_size_x * info->global_size_y * info->global_size_z));
     result.norm_inf = norm_inf;
