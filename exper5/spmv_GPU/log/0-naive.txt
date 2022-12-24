@@ -1,0 +1,60 @@
+    399130 x 399130, 1216334 non-zeros, Index of sparsity 0.000764%, 64 run(s)
+Performance: 2.209288 Gflop/s
+
+    85623 x 85623, 2374949 non-zeros, Index of sparsity 0.032395%, 64 run(s)
+Performance: 11.077268 Gflop/s
+
+    123440 x 123440, 3085406 non-zeros, Index of sparsity 0.020249%, 64 run(s)
+Performance: 20.518078 Gflop/s
+
+    525825 x 525825, 3674625 non-zeros, Index of sparsity 0.001329%, 64 run(s)
+Performance: 30.800341 Gflop/s
+
+    1971281 x 1971281, 5533214 non-zeros, Index of sparsity 0.000142%, 64 run(s)
+Performance: 24.753649 Gflop/s
+
+    1489752 x 1489752, 10319760 non-zeros, Index of sparsity 0.000465%, 64 run(s)
+Performance: 35.100292 Gflop/s
+
+    217918 x 217918, 11524432 non-zeros, Index of sparsity 0.024268%, 64 run(s)
+Performance: 16.430101 Gflop/s
+
+    3428755 x 3428755, 17052626 non-zeros, Index of sparsity 0.000145%, 64 run(s)
+Performance: 32.393941 Gflop/s
+
+    45101 x 45101, 28967291 non-zeros, Index of sparsity 1.424084%, 64 run(s)
+Performance: 11.874236 Gflop/s
+
+    540486 x 540486, 30491458 non-zeros, Index of sparsity 0.010438%, 64 run(s)
+Performance: 19.023072 Gflop/s
+
+    952203 x 952203, 42493817 non-zeros, Index of sparsity 0.004687%, 64 run(s)
+Performance: 19.969559 Gflop/s
+
+    8388608 x 8388608, 50331568 non-zeros, Index of sparsity 0.000072%, 64 run(s)
+Performance: 31.284159 Gflop/s
+
+    5558326 x 5558326, 59524291 non-zeros, Index of sparsity 0.000193%, 64 run(s)
+Performance: 1.801357 Gflop/s
+
+    21198119 x 21198119, 63580358 non-zeros, Index of sparsity 0.000014%, 64 run(s)
+Performance: 9.505344 Gflop/s
+
+    4802000 x 4802000, 85362744 non-zeros, Index of sparsity 0.000370%, 64 run(s)
+Performance: 40.352884 Gflop/s
+
+    5154859 x 5154859, 99199551 non-zeros, Index of sparsity 0.000373%, 64 run(s)
+Performance: 28.876821 Gflop/s
+
+    1504002 x 1504002, 110686677 non-zeros, Index of sparsity 0.004893%, 64 run(s)
+Performance: 9.365878 Gflop/s
+
+    50912018 x 50912018, 108109320 non-zeros, Index of sparsity 0.000004%, 64 run(s)
+Performance: 13.117203 Gflop/s
+
+    2097152 x 2097152, 182082942 non-zeros, Index of sparsity 0.004140%, 64 run(s)
+Performance: 2.018191 Gflop/s
+
+    16777216 x 16777216, 265114400 non-zeros, Index of sparsity 0.000094%, 64 run(s)
+Performance: 23.023068 Gflop/s
+
